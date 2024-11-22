@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FrameBD.VerAeropuertos">
+  <grid id="27dc6" binding="AeroDispo" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="625" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14595756"/>
+    </properties>
+    <border type="bevel-raised" title="SELECCION DE AEROPUERTO">
+      <font/>
+      <title-color color="-1710883"/>
+    </border>
+    <children>
+      <component id="2a00a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1710883"/>
+          <text value="AEROPUERTOS DISPONIBLES"/>
+        </properties>
+      </component>
+      <component id="c40b6" class="javax.swing.JList" binding="Datos">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13285101"/>
+          <font size="14"/>
+          <foreground color="-1710883"/>
+          <layoutOrientation value="0"/>
+          <model/>
+          <selectionMode value="2"/>
+          <valueIsAdjusting value="false"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+        <clientProperties>
+          <List.isFileList class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="a7810" class="javax.swing.JButton" binding="SeleccAero">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11923138"/>
+          <foreground color="-1710883"/>
+          <text value="SELECCIONAR"/>
+        </properties>
+      </component>
+      <component id="b4480" class="javax.swing.JButton" binding="SeleccCompa">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11923138"/>
+          <foreground color="-1710883"/>
+          <text value="SELECCIONAR"/>
+        </properties>
+      </component>
+      <component id="fb628" class="javax.swing.JButton" binding="Continuar">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11923138"/>
+          <foreground color="-1710883"/>
+          <hideActionText value="false"/>
+          <text value="CONTINUAR"/>
+        </properties>
+      </component>
+      <component id="ecb39" class="javax.swing.JButton" binding="Volver">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11923138"/>
+          <enabled value="true"/>
+          <foreground color="-1710883"/>
+          <text value="VOLVER"/>
+        </properties>
+      </component>
+      <component id="7e5bd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1710883"/>
+          <text value="COMPAÑIAS DISPONIBLES"/>
+        </properties>
+      </component>
+      <component id="fa1ed" class="javax.swing.JList" binding="DatosCompa">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13285101"/>
+          <font size="14"/>
+          <foreground color="-1710883"/>
+          <model/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FrameBD.RegistrarAeropuertos">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="19" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="1397" height="645"/>
+    </constraints>
+    <properties>
+      <background color="-14595756"/>
+    </properties>
+    <border type="bevel-lowered" title="Aeropuertos Gc" title-justification="1">
+      <font/>
+      <title-color color="-1710883"/>
+    </border>
+    <children>
+      <component id="fc0c9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15971777"/>
+          <foreground color="-1710883"/>
+          <text value="REGISTRAR AEROPUERTO"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="ef321" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13285101"/>
+          <foreground color="-1710883"/>
+          <text value="NOMBRE DEL AEROPUERTO: "/>
+        </properties>
+      </component>
+      <component id="155c0" class="javax.swing.JTextField" binding="NombreAeroField">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="71f4b" class="javax.swing.JRadioButton" binding="PUBLICORadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14595756"/>
+          <foreground color="-1710883"/>
+          <text value="PUBLICO"/>
+        </properties>
+      </component>
+      <component id="6bf7b" class="javax.swing.JRadioButton" binding="PRIVADORadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14595756"/>
+          <foreground color="-1710883"/>
+          <text value="PRIVADO"/>
+        </properties>
+      </component>
+      <component id="61273" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13285101"/>
+          <foreground color="-1710883"/>
+          <text value="COMPAÑIA: "/>
+        </properties>
+      </component>
+      <component id="7f2df" class="javax.swing.JTextField" binding="CompaField">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ee556" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1710883"/>
+          <text value="CIUDAD: "/>
+        </properties>
+      </component>
+      <component id="cd94f" class="javax.swing.JTextField" binding="CiudadAero">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="90943" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13285101"/>
+          <foreground color="-1710883"/>
+          <text value="PAIS DEL AEROPUERTO"/>
+        </properties>
+      </component>
+      <component id="7da52" class="javax.swing.JTextField" binding="PaisAeroField">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b007d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15971777"/>
+          <foreground color="-1710883"/>
+          <text value="VUELOS"/>
+        </properties>
+      </component>
+      <component id="dd9ff" class="javax.swing.JTextField" binding="OrigenField">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ff615" class="javax.swing.JButton" binding="Register">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11923138"/>
+          <foreground color="-1710883"/>
+          <text value="REGISTRAR AEROPUERTO"/>
+        </properties>
+      </component>
+      <component id="cbbcb" class="javax.swing.JButton" binding="Volver">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11923138"/>
+          <foreground color="-1710883"/>
+          <text value="VOLVER"/>
+        </properties>
+      </component>
+      <component id="32220" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1710883"/>
+          <text value="SUBVENCION: "/>
+        </properties>
+      </component>
+      <component id="ea004" class="javax.swing.JTextField" binding="SubvenField">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="524ee" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13285101"/>
+          <foreground color="-1710883"/>
+          <text value="CIUDAD DESTINO: "/>
+        </properties>
+      </component>
+      <component id="e3de6" class="javax.swing.JTextField" binding="DestinoField">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c1bd5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13285101"/>
+          <foreground color="-1710883"/>
+          <text value="CIUDAD ORIGEN: "/>
+        </properties>
+      </component>
+      <component id="aace3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1710883"/>
+          <text value="IDENTIFICADOR DEL VUELO: "/>
+        </properties>
+      </component>
+      <component id="8200" class="javax.swing.JTextField" binding="IdentiField">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="32c43" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1710883"/>
+          <text value="NUMERO MAXIMO DE PASAJEROS: "/>
+        </properties>
+      </component>
+      <component id="e9b23" class="javax.swing.JTextField" binding="NumMaxField">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="937a9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1710883"/>
+          <text value="PRECIO: "/>
+        </properties>
+      </component>
+      <component id="259b2" class="javax.swing.JTextField" binding="PreciField">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b1fdf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1710883"/>
+          <enabled value="false"/>
+          <foreground color="-1710883"/>
+          <text value="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        </properties>
+      </component>
+      <component id="10423" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1710883"/>
+          <enabled value="false"/>
+          <foreground color="-1710883"/>
+          <text value="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        </properties>
+      </component>
+      <component id="f70a0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1710883"/>
+          <enabled value="false"/>
+          <foreground color="-1710883"/>
+          <text value="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        </properties>
+      </component>
+      <component id="3b778" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1710883"/>
+          <enabled value="false"/>
+          <foreground color="-1710883"/>
+          <text value="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        </properties>
+      </component>
+      <component id="d244b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1710883"/>
+          <enabled value="false"/>
+          <foreground color="-1710883"/>
+          <text value="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        </properties>
+      </component>
+      <component id="182f6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1710883"/>
+          <enabled value="false"/>
+          <foreground color="-1710883"/>
+          <text value="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        </properties>
+      </component>
+      <component id="79fe2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1710883"/>
+          <enabled value="false"/>
+          <foreground color="-1710883"/>
+          <text value="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        </properties>
+      </component>
+      <component id="f6e02" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1710883"/>
+          <enabled value="false"/>
+          <foreground color="-1710883"/>
+          <text value="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
